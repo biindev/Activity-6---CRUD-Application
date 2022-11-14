@@ -15,7 +15,7 @@
                 echo "<font color='red'> Subject Name field is empty</font><br/>";
             }
         } else{
-            mysqli_query($dbc, "UPDATE tblsubjects SET subject_code='$code', subject_name='$name' WHERE subject_id=$id");
+            mysqli_query($dbc, "UPDATE tblsubjects SET subject_code='$code', subject_name='$name' WHERE subject_id='$id'");
             header("Location: ../index.php");
         }
     }
