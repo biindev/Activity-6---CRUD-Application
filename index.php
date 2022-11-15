@@ -1,5 +1,5 @@
 <?php
-    //including the database
+    //including the database agsg
     include_once("database/connection.php");
 
     //including the fetch function.
